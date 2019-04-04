@@ -42,7 +42,9 @@
       </p>
     </div>
     <div style="margin-right: 20%">
-    <input type="submit"  [(colorPicker)]="color" [style.background]="color" />
+    <input type="submit"  [(colorPicker)]="color" [style.background]="color"  
+ [cpOutputFormat] ='("rgba")'
+ />
   
 
     <h2> Hex code : {{color}}</h2>
